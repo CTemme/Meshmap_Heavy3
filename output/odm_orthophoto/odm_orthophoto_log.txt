@@ -1,0 +1,73 @@
+/code/build/bin/odm_orthophoto_log.txt
+
+Arguments given
+-inputFile
+/code/odm_texturing/odm_textured_model.obj
+-logFile
+/code/odm_orthophoto/odm_orthophoto_log.txt
+-outputFile
+/code/odm_orthophoto/odm_orthophoto.png
+-resolution
+20.0
+-outputCornerFile
+/code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading textured mesh from: /code/odm_texturing/odm_textured_model.obj
+Log file path was set to: /code/odm_orthophoto/odm_orthophoto_log.txt
+Writing output to: /code/odm_orthophoto/odm_orthophoto.png
+Resolution count was set to: 20pixels/meter
+Writing corners to: /code/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading mesh file...
+.. mesh file read.
+
+Number of faces in the model 178030
+Set boundary to contain entire model.
+Local boundary points:
+Point 1: -82.731 -92.019
+Point 2: -82.731 85.398
+Point 3: 84.987 85.398
+Point 4: 84.987 -92.019
+
+Ortho photo bounds x : -82.731 -> 84.987
+Ortho photo bounds y : -92.019 -> 85.398
+Ortho photo area : 29756m2
+Ortho photo resolution, width x height : 3355x3549
+Translating and scaling mesh...
+.. mesh translated and scaled.
+
+Rendering the ortho photo...
+Material 0 rendered.
+Material 1 rendered.
+Material 2 rendered.
+Material 3 rendered.
+Material 4 rendered.
+Material 5 rendered.
+Material 6 rendered.
+Material 7 rendered.
+Material 8 rendered.
+Material 9 rendered.
+Material 10 rendered.
+Warning: Sliver polygon found at face index 175375
+Warning: Sliver polygon found at face index 175376
+Warning: Sliver polygon found at face index 175377
+Warning: Sliver polygon found at face index 175378
+Material 11 rendered.
+Material 12 rendered.
+Warning: Sliver polygon found at face index 176054
+Warning: Sliver polygon found at face index 176055
+Warning: Sliver polygon found at face index 176056
+Warning: Sliver polygon found at face index 176057
+Material 13 rendered.
+Material 14 rendered.
+Material 15 rendered.
+Material 16 rendered.
+Material 17 rendered.
+Material 18 rendered.
+Material 19 rendered.
+Material 20 rendered.
+...ortho photo rendered
+
+Writing ortho photo to /code/odm_orthophoto/odm_orthophoto.png
+Writing corner coordinates to /code/odm_orthophoto/odm_orthophoto_corners.txt
+Orthophoto generation done.
